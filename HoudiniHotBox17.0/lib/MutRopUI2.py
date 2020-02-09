@@ -68,7 +68,7 @@ def evaltotalFrame(renderNode):
         start = renderNode.parm("f1").eval()
         end = renderNode.parm("f2").eval()
     else:
-        print "Is not IO node ex:rop_geometry,filecache,catche_tool_1.0.1"
+        print ("Is not IO node ex:rop_geometry,filecache,catche_tool_1.0.1")
         return
     totalFrame = (end - start)
    
